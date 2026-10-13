@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d1193">
+    <meta name="description" content="SecurEvo accompagne vos projets en génie civil, import-export, formation SHI, matériel de sécurité, électricité et création de sites web.">
+    <meta property="og:title" content="SecurEvo — Construire, sécuriser, faire évoluer">
+    <meta property="og:description" content="Des solutions concrètes pour vos projets, vos équipes et vos activités.">
+    <meta property="og:type" content="website">
+    <title>SecurEvo — Construire, sécuriser, faire évoluer</title>
+    <link rel="icon" type="image/png" href="assets/securevo-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu" data-i18n="skipLink">Aller au contenu</a>
+    <header class="site-header" id="accueil">
+      <div class="header-inner">
+        <a class="brand" href="#accueil" aria-label="SecurEvo, accueil" data-i18n-aria="brandLabel">
+          <img src="assets/securevo-logo.png" alt="SecurEvo">
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-principale" aria-label="Ouvrir le menu" data-i18n-aria="menuOpen">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="navigation-principale" aria-label="Navigation principale" data-i18n-aria="mainNavigation">
+          <a href="#services" data-i18n="navServices">Nos services</a>
+          <a href="#approche" data-i18n="navApproach">Notre approche</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+          <label class="language-picker">
+            <span class="visually-hidden" data-i18n="languageLabel">Langue</span>
+            <select id="language-select" aria-label="Langue" data-i18n-aria="languageLabel">
+              <option value="fr">Français</option>
+              <option value="en">English</option>
+              <option value="ar">العربية</option>
+            </select>
+          </label>
+          <a class="nav-cta" href="#contact"><span data-i18n="navCta">Parlons de votre projet</span> <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/chantier.jpg" alt="Équipe en intervention sur un chantier de construction" data-i18n-attr="alt:heroImageAlt" fetchpriority="high">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span> <span data-i18n="heroEyebrow">Expertise multidisciplinaire</span></p>
+          <h1 id="hero-title">SecurEvo<span class="hero-period">.</span></h1>
+          <p class="hero-lead" data-i18n-html="heroLead">Construire avec méthode.<br>Protéger avec exigence.</p>
+          <p class="hero-copy" data-i18n="heroCopy">Du chantier aux outils numériques, nous faisons avancer vos projets avec des solutions fiables, adaptées à vos réalités.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#services"><span data-i18n="heroServicesCta">Découvrir nos services</span> <span aria-hidden="true">↘</span></a>
+            <a class="hero-text-link" href="#contact"><span data-i18n="heroContactCta">Un besoin précis ?</span> <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-caption"><span data-i18n="heroCaption">Des solutions, un même engagement</span></div>
+      </section>
+
+      <section class="intro-band" aria-label="Domaines d’intervention" data-i18n-aria="domainsLabel">
+        <p data-i18n="introTitle">Un partenaire pour vos projets</p>
+        <div class="intro-tags"><span data-i18n="tagConstruction">Construction</span><i></i><span data-i18n="tagSafety">Sécurité</span><i></i><span data-i18n="tagEnergy">Énergie</span><i></i><span data-i18n="tagDigital">Digital</span></div>
+      </section>
+
+      <section class="services section-wrap" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span aria-hidden="true"></span> <span data-i18n="servicesEyebrow">Ce que nous faisons</span></p>
+            <h2 id="services-title" data-i18n-html="servicesTitle">Six expertises.<br><span>Un partenaire fiable.</span></h2>
+          </div>
+          <p class="section-summary" data-i18n="servicesSummary">Des compétences complémentaires pour simplifier vos opérations et donner de l’élan à vos ambitions.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-item service-featured">
+            <div class="service-top"><span class="service-number">01</span><span class="service-mark" aria-hidden="true">↗</span></div>
+            <h3 data-i18n="service1Title">Génie civil</h3>
+            <p data-i18n="service1Copy">Études, travaux et accompagnement de vos projets d’infrastructure et de construction, du terrain à la livraison.</p>
+            <a href="#contact" aria-label="Discuter d’un projet de génie civil" data-i18n-aria="service1Label"><span data-i18n="service1Cta">Parlons de votre projet</span> <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-item">
+            <div class="service-top"><span class="service-number">02</span><span class="service-mark" aria-hidden="true">↗</span></div>
+            <h3 data-i18n="service2Title">Import-export</h3>
+            <p data-i18n="service2Copy">Approvisionnement et échanges de produits, avec une coordination attentive à chaque étape.</p>
+            <a href="#contact" aria-label="Discuter d’un besoin en import-export" data-i18n-aria="service2Label"><span data-i18n="service2Cta">Parlons de votre besoin</span> <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-item">
+            <div class="service-top"><span class="service-number">03</span><span class="service-mark" aria-hidden="true">↗</span></div>
+            <h3 data-i18n="service3Title">Formation SHI</h3>
+            <p data-i18n="service3Copy">Des formations pour renforcer les bons réflexes, la prévention et la culture sécurité de vos équipes.</p>
+            <a href="#contact" aria-label="Discuter d’une formation SHI" data-i18n-aria="service3Label"><span data-i18n="service3Cta">Organiser une formation</span> <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-item">
+            <div class="service-top"><span class="service-number">04</span><span class="service-mark" aria-hidden="true">↗</span></div>
+            <h3 data-i18n="service4Title">Matériel de sécurité</h3>
+            <p data-i18n="service4Copy">Vente d’équipements et de matériels de sécurité adaptés aux activités et aux besoins du terrain.</p>
+            <a href="#contact" aria-label="Discuter de matériel de sécurité" data-i18n-aria="service4Label"><span data-i18n="service4Cta">Trouver le bon équipement</span> <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-item">
+            <div class="service-top"><span class="service-number">05</span><span class="service-mark" aria-hidden="true">↗</span></div>
+            <h3 data-i18n="service5Title">Sites web</h3>
+            <p data-i18n="service5Copy">Création, maintenance et modification de sites web pour une présence en ligne utile et bien tenue.</p>
+            <a href="#contact" aria-label="Discuter d’un projet de site web" data-i18n-aria="service5Label"><span data-i18n="service5Cta">Faire évoluer mon site</span> <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-item">
+            <div class="service-top"><span class="service-number">06</span><span class="service-mark" aria-hidden="true">↗</span></div>
+            <h3 data-i18n="service6Title">Électricité</h3>
+            <p data-i18n="service6Copy">Travaux et interventions électriques réalisés avec rigueur, en tenant compte des contraintes de votre site.</p>
+            <a href="#contact" aria-label="Discuter d’un besoin en électricité" data-i18n-aria="service6Label"><span data-i18n="service6Cta">Décrire mon besoin</span> <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="approach" id="approche" aria-labelledby="approach-title">
+        <div class="approach-inner">
+          <div class="approach-copy">
+            <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span> <span data-i18n="approachEyebrow">Notre approche</span></p>
+            <h2 id="approach-title" data-i18n-html="approachTitle">Le sérieux du terrain.<br><span>Le sens du résultat.</span></h2>
+            <p data-i18n="approachCopy">Chaque projet commence par une écoute attentive. Nous clarifions vos priorités, mobilisons les compétences adaptées et avançons avec un suivi simple et transparent.</p>
+            <a class="button button-outline" href="#contact"><span data-i18n="approachCta">Échangeons sur votre projet</span> <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="approach-steps" aria-label="Notre méthode en trois étapes" data-i18n-aria="stepsLabel">
+            <div class="approach-step"><span>01</span><div><h3 data-i18n="step1Title">Écouter</h3><p data-i18n="step1Copy">Comprendre le contexte, les objectifs et les contraintes.</p></div></div>
+            <div class="approach-step"><span>02</span><div><h3 data-i18n="step2Title">Proposer</h3><p data-i18n="step2Copy">Définir une réponse claire, réaliste et adaptée.</p></div></div>
+            <div class="approach-step"><span>03</span><div><h3 data-i18n="step3Title">Agir</h3><p data-i18n="step3Copy">Réaliser et suivre les étapes avec rigueur.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="contact-intro">
+          <p class="eyebrow"><span aria-hidden="true"></span> <span data-i18n="contactEyebrow">Prenons contact</span></p>
+          <h2 id="contact-title" data-i18n-html="contactTitle">Votre prochain projet<br><span>commence ici.</span></h2>
+          <p data-i18n="contactCopy">Décrivez-nous votre besoin. Nous préparerons un message récapitulatif que vous pourrez nous envoyer par courriel.</p>
+          <div class="contact-note"><span class="contact-dot"></span><span data-i18n="contactNote">Génie civil · Sécurité · Digital · Électricité</span></div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label for="nom" data-i18n="formNameLabel">Votre nom</label>
+            <input id="nom" name="nom" autocomplete="name" required placeholder="Nom et prénom" data-i18n-attr="placeholder:namePlaceholder">
+          </div>
+          <div class="form-row">
+            <label for="email" data-i18n="formEmailLabel">Votre adresse e-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="nom@entreprise.com" data-i18n-attr="placeholder:emailPlaceholder">
+          </div>
+          <div class="form-row">
+            <label for="service" data-i18n="formServiceLabel">Service concerné</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected data-i18n="formServicePrompt">Choisir un service</option>
+              <option value="civil" data-i18n="service1Title">Génie civil</option>
+              <option value="trade" data-i18n="service2Title">Import-export</option>
+              <option value="shi" data-i18n="service3Title">Formation SHI</option>
+              <option value="safety" data-i18n="service4Title">Matériel de sécurité</option>
+              <option value="web" data-i18n="formWebOption">Création ou maintenance web</option>
+              <option value="electricity" data-i18n="service6Title">Électricité</option>
+              <option value="other" data-i18n="formOtherOption">Autre demande</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message" data-i18n="formMessageLabel">Votre message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Quelques mots sur votre projet…" data-i18n-attr="placeholder:messagePlaceholder"></textarea>
+          </div>
+          <button class="button button-primary" type="submit"><span data-i18n="formSubmit">Préparer mon message</span> <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-privacy" data-i18n="formPrivacy">Votre message est préparé dans votre application de messagerie. Aucune donnée n’est enregistrée sur ce site.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="footer-brand" href="#accueil" aria-label="SecurEvo, retour en haut" data-i18n-aria="footerBrandLabel"><img src="assets/securevo-logo.png" alt="SecurEvo"></a>
+        <p data-i18n-html="footerTagline">Construire. Sécuriser.<br>Faire évoluer.</p>
+        <a class="back-top" href="#accueil"><span data-i18n="backTop">Retour en haut</span> <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> SecurEvo. <span data-i18n="copyright">Tous droits réservés.</span></span><span data-i18n="footerNote">Des solutions pensées pour avancer.</span></div>
+    </footer>
+  </body>
+</html>
