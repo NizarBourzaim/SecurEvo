@@ -179,6 +179,62 @@ html[dir="rtl"] .hero-shade { background: linear-gradient(270deg, rgba(7, 10, 53
 .back-top > span[aria-hidden="true"] { font-size: 18px; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 20px; padding: 18px 0 21px; color: rgba(255,255,255,.55); font-size: 11px; }
 
+.floating-contact {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 40;
+}
+.floating-contact__btn {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  box-shadow: 0 12px 28px rgba(5, 25, 55, 0.25);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.floating-contact__btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(5, 25, 55, 0.32);
+}
+.floating-contact__btn svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.floating-contact__btn--gmail {
+  background: linear-gradient(180deg, #0a59ff 0%, #0b42d9 100%);
+  color: #fff;
+}
+.floating-contact__btn--gmail svg {
+  width: 24px;
+  height: 24px;
+}
+.floating-contact__btn--whatsapp {
+  background: linear-gradient(180deg, #1ddc5f 0%, #0eb954 100%);
+  color: #fff;
+}
+
+@media (max-width: 680px) {
+  .floating-contact {
+    right: 18px;
+    bottom: 18px;
+    gap: 12px;
+  }
+  .floating-contact__btn {
+    width: 52px;
+    height: 52px;
+  }
+  .floating-contact__btn svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 @keyframes hero-arrive { from { transform: scale(1.035); } to { transform: scale(1); } }
 @keyframes content-arrive { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
